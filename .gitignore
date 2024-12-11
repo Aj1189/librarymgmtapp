@@ -1,0 +1,6 @@
+*.exe
+.terraform.lock.hcl
+*ENSE.txt
+*form.tfstate
+terraform.tfstate.backup
+env
