@@ -1,5 +1,5 @@
 # General AWS configuration
-key_name      = "shop-server" # The name of the EC2 key pair you created
+key_name      = "cicd" # The name of the EC2 key pair you created
 instance_type = "t2.micro"         # The instance type for EC2
 
 # Backend EC2 instance configuration
