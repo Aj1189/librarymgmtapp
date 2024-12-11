@@ -4,7 +4,7 @@ pipeline {
     environment {
         SONAR_TOKEN = credentials('2536478') // SonarQube token
         AWS_CREDS = credentials('bc434e21-5423-4961-bf6a-40aff751bfa3') // AWS credentials
-        APP_SERVER = '54.158.92.149' // Application server
+        APP_SERVER = '3.89.141.152' // Application server
         SSH_KEY = credentials('backendconnect') // SSH private key for accessing app server
         AWS_REGION = 'us-east-1'
     }
