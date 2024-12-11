@@ -12,7 +12,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git branch: 'main', url: 'https://github.com/crowntailtech/crudappcicd.git'
+                git branch: 'main', url: 'https://github.com/Aj1189/librarymgmtapp.git'
             }
         }
 
